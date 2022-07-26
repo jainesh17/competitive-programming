@@ -63,6 +63,23 @@ public class sda_quetion {
             }
 */
 //***********************************************************************************************************************************************
+        Scanner sc = new Scanner(System.in);
+        System.out.print("enter the element :");
+        int element = sc.nextInt();
+        int [] arr = new  int[element];
+
+        for (int i=0; i<element; i++) {
+            System.out.println("enter the number");
+            arr[i] = sc.nextInt();
+        }
+        for (int i=0; i<element; i++) {
+            for (int j=i+1; j<element; j++){
+                if (arr[i]==arr[j]) {
+                    System.out.println(true);
+                }
+
+            }
+        }
 
       }
     }
