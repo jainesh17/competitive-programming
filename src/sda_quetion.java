@@ -63,7 +63,7 @@ public class sda_quetion {
             }
 */
 //***********************************************************************************************************************************************
-        Scanner sc = new Scanner(System.in);
+       /* Scanner sc = new Scanner(System.in);
         System.out.print("enter the element :");
         int element = sc.nextInt();
         int [] arr = new  int[element];
@@ -79,7 +79,46 @@ public class sda_quetion {
                 }
 
             }
+        }*/
+//***********************************************************************************************************************************************
+      // reverse String
+
+     /* StringBuilder sb = new StringBuilder("jainesh");
+
+      for ( int i=0; i<sb.length()/2; i++){
+          int front = i;
+          int back = sb.length()-1-i;
+
+          char frontchar = sb.charAt(front);
+          char backchar = sb.charAt(back);
+
+          sb.setCharAt(front,backchar);
+          sb.setCharAt(back, frontchar);
+      }
+        System.out.println(sb);*/
+
+//************************************************************************************************************************************************
+
+       /* Scanner sc = new Scanner(System.in);
+        System.out.print("enter the element :");
+        int element = sc.nextInt();
+        int [] arr = new  int[element];
+        int sum =0;
+        for (int i=0; i<element; i++){
+            System.out.println("enter the number");
+            arr[i] = sc.nextInt();
+             sum += arr[i];
         }
+           System.out.println(sum);
+*/
+
+//************************************************************************************************************************************************
+
+
+
+
+
+
 
       }
     }
