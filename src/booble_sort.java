@@ -19,6 +19,8 @@ public class booble_sort {
             }
             System.out.print(arr[i] + " ");
         }
+            System.out.println();
+        System.out.println(arr[arr.length-2]);
 
     }
 }
