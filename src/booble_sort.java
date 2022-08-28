@@ -7,7 +7,7 @@ public class booble_sort {
 
         // bubble sort
 
-        int arr[] = {1,8,3,2,7,9,6,5};
+        int arr[] = {3,2,6,8,4,5,9};
         for (int i=0; i<=arr.length-1; i++){
             for (int j=0; j<arr.length-i-1; j++){
                 int temp;
@@ -20,7 +20,7 @@ public class booble_sort {
             System.out.print(arr[i] + " ");
         }
             System.out.println();
-        System.out.println(arr[arr.length-2]);
+    //    System.out.println(arr[arr.length-2]);
 
     }
 }

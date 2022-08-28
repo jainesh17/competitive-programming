@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-class string_char_comperision {
+class String_char_comperision {
     public static void str2(String str, int idx ,String inputstr){
        char [] st1 = str.toCharArray();
        char [] st2 = inputstr.toCharArray();

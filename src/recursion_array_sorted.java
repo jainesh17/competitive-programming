@@ -11,7 +11,7 @@ public class recursion_array_sorted {
         }
     }
     public static void main(String[] args) {
-      int arr[] = {1,5,5};
+      int arr[] = {1,5,6};
         System.out.println(issorted(arr,0));
     }
 }
